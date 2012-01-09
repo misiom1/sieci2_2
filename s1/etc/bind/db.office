@@ -1,0 +1,12 @@
+$TTL    60000
+@               IN      SOA     ns.labnet.        root.ns.labnet. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@               IN      NS      ns.labnet.
+dnsserv         IN      A       10.0.1.2
+routerA         IN      A       10.0.1.1
+routerB         IN      A       10.0.1.129
